@@ -9,31 +9,42 @@
 </head>
 
 <body>
-  <h1 id="level-title">Press A Key to Start</h1>
+  <h1 class="over"></h1>
+  
+  <button type="button" class="start" name="button">Start</button>
+  <div class="start">
+    <h3>This is a Memory Game</h3> <p><br> The device creates a series of tones and lights and you should be able to repeat the sequence.
+    The device has four colored buttons, each producing a particular tone when it is pressed or activated by the device.
+      <br> A round in the game consists of the device lighting up one button in a random order,
+      <br> after which the player must reproduce that order by pressing all the buttons from the beginning.
+      <br> As the game progresses, the number of buttons to be pressed increases.
+      <br><br><br> <strong>The Level Indicates The Number of colors or tiles In the sequence. Remember the order </strong> </p>
+  </div>
   <div class="container">
     <div class="row">
 
       <div type="button" id="green" class="btn green">
-        w
+
       </div>
 
       <div type="button" id="red" class="btn red">
-        a
+
       </div>
     </div>
 
     <div class="row">
 
       <div type="button" id="yellow" class="btn yellow">
-        s
+
       </div>
       <div type="button" id="blue" class="btn blue">
-        d
+
       </div>
 
     </div>
 
   </div>
+  <h1 id="level-title">Welcome</h1>
 
   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
   <script src="game.js" charset="utf-8"></script>

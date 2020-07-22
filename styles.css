@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
 body {
   text-align: center;
   background-color: #011F3F;
@@ -5,8 +9,8 @@ body {
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin:  5%;
+  font-size: 2rem;
+  margin:  3%;
   color: #FEF2BF;
 }
 
@@ -18,10 +22,11 @@ body {
 }
 
 .btn {
-  margin: 25px;
+  margin: 15px;
+  margin-top: 5%;
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border: 10px solid black;
   border-radius: 20%;
   font-family: 'Press Start 2P', cursive;
@@ -49,7 +54,30 @@ body {
   background-color: yellow;
 }
 
-.pressed {
-  box-shadow: 0 0 20px white;
-  background-color: grey;
+button.start{
+  margin: 15px;
+  padding: 10px 20px ;
+  border: 10px solid black;
+  border-radius: 20%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  margin-top: 50px;
+}
+div.start{
+
+  line-height: 1;
+  color: white;
+}
+.start h3{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+}
+.start p{
+  font-size: 30px;
+  font-family: 'VT323', monospace;
+}
+.over{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+
 }
