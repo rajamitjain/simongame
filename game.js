@@ -8,7 +8,7 @@ var random = [];
 var pattern = [];
 userName=userName.toUpperCase();
 var started = false;
-$("#level-title").html("Welcome ,"+ userName + " Level :" + level);
+$("#level-title").html("Welcome,"+ userName + "<br><br>"+ " Level :" + level);
 
 $("button.start").click(function() {
   if (!started) {
@@ -82,7 +82,8 @@ function nextSequence() {
  pattern = [];
 
   level++;
-  $("#level-title").text("Welcome ,"+ userName + " Level :" + level);
+  $("#level-title").html("Welcome,"+ userName + "<br><br>"+ " Level :" + level);
+
 
 
   var rnd = Math.floor(Math.random() * 4);
